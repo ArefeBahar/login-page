@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title_in_container">
+            <h3 class="head_in_title"><i class="fa fa-user"></i> My Dashboard</h3>
+        </div>
+        <div class="form_in_container">
+            <h3 class="head_in_form">Login</h3>
+            <form action="#">
+                <div class="email_in_form">
+                    <label for="Email">Email</label><br>
+                    <input type="email" placeholder="Your email" id="Email"><br>
+                    <div class="icon_1">
+                        <i class="fa fa-envelope"></i>
+                    </div> 
+                </div>
+                <div class="password_in_form">
+                    <label for="Pass">Password</label><br>
+                    <input type="password" placeholder="Password" id="Pass" minlength="8" onchange="PassError()"><br>
+                    <div class="icon_2">
+                        <i class="fa fa-eye"></i>
+                    </div>
+                    <div class="err err_txt_password"><i class="fa fa-exclamation-circle"></i> Enter 8 character or more.</div>
+                </div>
+                <button class="btn_in_form" onclick="validate()">LOG IN</button><br>
+            </form>
+            <div class="check">
+                <input type="checkbox" id="Box">
+                <label for="Box">Keep me logged in</label>
+            </div>
+            <div class="ForgotPass">
+                <a href="#" class="password">Forgot password?</a><br>     
+            </div>
+        </div>
+        <div class="welcome_in_container">
+            <h3 class="head_in_welcome">welcome to <span>My Dashboard</span></h3><br>
+            <hr><br>
+            <p class="p_in_welcome">Login to access your account</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
