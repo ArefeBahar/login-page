@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+*{
+    margin: auto;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image: url("../images/dark_tint.png") , url("../images/xbg.jpg.pagespeed.ic.tiVxeakBSd.webp");
+    background-size: cover;
+}
+.container{
+    position: relative;
+}
+.head_in_title{
+    color: aliceblue;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.form_in_container{
+    background-color: white;
+    width: 300px;
+    margin: 103px auto;
+    padding: 30px 20px ;
+    border-radius: 20px;
+
+}
+.head_in_form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.email_in_form{
+    position: relative;
+}
+label{
+    text-align: left;
+}
+input[type=email]{
+    width: 100%;
+    padding: 10px;
+    margin:5px auto 18px auto;   
+    box-sizing: border-box;
+    border-width: 1px;
+    border-radius: 6px;
+    outline: none;
+}
+input[type=email]:focus{
+    border: 1px solid #833140;
+}
+.icon_1{
+    position: absolute;
+    top: 32px;
+    right: 12px;
+    color: gray;
+}
+
+.password_in_form{
+    position: relative;
+}
+input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto 18px auto;   
+    box-sizing: border-box;
+    border-width: 1px;
+    border-radius: 6px;
+    outline: none;
+}
+input[type=password]:focus{
+    border: 1px solid #833140;
+}
+.icon_2{
+    position: absolute;
+    top: 32px;
+    right: 12px;
+    color: gray;
+    cursor: pointer;
+}
+.err{
+    display: none;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: #b32c44;
+}
+.btn_in_form{
+    width: 100%;
+    padding: 10px;
+    margin: 12px auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+    background-color: #833140;
+}ِ
+.check{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.ForgotPass{
+    text-align: center;
+    margin-top: 7px;
+}
+.password{
+    font-size: 16px;
+    color: #833140;
+}
+.password:hover{
+    color: rgba(107, 107, 107, 0.87);
+}
+.welcome_in_container{
+    position: absolute;
+    bottom: -75px;
+}
+.head_in_welcome{
+    color: aliceblue;
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+}
+hr{
+    margin-left: 12px;
+}
+.p_in_welcome{
+    color: aliceblue;
+    padding-left: 15px;
+    font-size: 14px;
+}
